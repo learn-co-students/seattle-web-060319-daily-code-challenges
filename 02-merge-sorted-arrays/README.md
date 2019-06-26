@@ -4,4 +4,6 @@ Merge two sorted arrays and return a single sorted array. The new array should b
 ```
 Input: [1,2,4], [1,3,4]
 Output: [1,1,2,3,4,4]
+Input: [1,2,4,5], [1,3,4]
+Output: [1,1,2,3,4,4,5]
 ```
