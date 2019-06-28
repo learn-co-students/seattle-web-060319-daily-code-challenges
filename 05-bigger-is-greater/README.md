@@ -1,22 +1,28 @@
-#Compare the Triplets
-https://www.hackerrank.com/challenges/compare-the-triplets/problem
+#Bigger is Greater
+https://www.hackerrank.com/challenges/bigger-is-greater/problem
 
-Given two  arrays of 3 point scores
-a = [1,2,3]
-b = [3,2,1]
+https://en.wikipedia.org/wiki/Lexicographical_order
 
-if  a[i] > b[i]  a is  awarded 1 point
-if  a[i] < b[i]  b is  awarded 1 point
-if  a[i] == b[i] neither is awarded a point
+Lexicographical order is often known as alphabetical order when dealing with strings. A string is greater than another string if it comes later in a lexicographically sorted list.
 
-Return an array with the final scors of a and B
+For example, given the word a = abcd, the next largest word is abdc
 
 
+Create the function biggerIsGreater to create and return the new string meeting the criteria. If it is not possible, return false.
 ```
-input: [5,6,7], [3,6,10]
-output: [1,1]
+input: ab
+output: ba
 
-input: [17,28,30], [99,16,8]
-output: [2,1]
+input: bb
+output: false
+
+input: hefg
+output: hegf
+
+input: dhck
+output: dhkc
+
+input: dkhc
+output: hcdk
 
 ```
