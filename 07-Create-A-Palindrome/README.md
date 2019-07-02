@@ -1,4 +1,4 @@
-#Create-A-Palindrome
+ # Create-A-Palindrome
 
 Given an input, create a palindrome 
 
