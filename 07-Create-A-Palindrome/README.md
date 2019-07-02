@@ -1,6 +1,6 @@
  # Create-A-Palindrome
 
-Given an input, create a palindrome 
+Create a palindrome from an input 
 
 ```
 Input: rad
